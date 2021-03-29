@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <h2 id='text'>Heaven</h2>
+        <div class="clouds">
+            <img src="cloud1.png" style="--i:1;">
+            <img src="cloud2.png" style="--i:2;">
+            <img src="cloud3.png" style="--i:3;">
+            <img src="cloud4.png" style="--i:4;">
+            <img src="cloud5.png" style="--i:5;">
+            <img src="cloud1.png" style="--i:10;">
+            <img src="cloud2.png" style="--i:9;">
+            <img src="cloud3.png" style="--i:8;">
+            <img src="cloud4.png" style="--i:7;">
+            <img src="cloud5.png" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>Realistic Cloud Banner Parallax Effects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aspernatur nesciunt culpa sed ad, alias similique iusto quis doloremque quidem deserunt, error esse atque! A omnis quod sed ab hic iure. Veritatis libero explicabo impedit sit officiis, molestias voluptas ut qui enim exercitationem. Deserunt quaerat voluptatum sint, incidunt itaque iure modi. Quas praesentium beatae facere enim veniam odit placeat rerum numquam reiciendis, aut ab iure repellat accusantium est quae omnis molestiae incidunt fuga sunt ratione atque libero officiis optio perspiciatis? Sint, quod repudiandae perferendis ullam ad animi culpa delectus fuga fugiat unde, voluptatem eligendi non sed expedita. Soluta, perspiciatis temporibus.</p>
+
+    </section>
+    <script type="text/javascript">
+    Let text = document.getElementById('text');
+    window.addEventListener('scroll', function(){
+        Let value = window.scrollY;
+        text.style.marginBottom = value * 2 + 'px';
+    })
+
+    </script>
+    
+</body>
+</html>
